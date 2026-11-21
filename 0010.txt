@@ -1,0 +1,1226 @@
+{
+  "source_commit": "a091d47703e22a6c37847eeba9f10015488eac8e",
+  "source_directory": "firmware/omni-gimbal",
+  "files": [
+    {
+      "path": "firmware/Application/chassis.c",
+      "size": 7489,
+      "sha256": "fda44fe0480348a9af6b9b781d7138df1b3ec2185015a1b52ae76cb307902203"
+    },
+    {
+      "path": "firmware/Application/chassis.h",
+      "size": 2353,
+      "sha256": "bb438dc1b03921f779a7b101cda882679bf3ec781310872117dee5fc3e8fce6b"
+    },
+    {
+      "path": "firmware/Application/gimbal.c",
+      "size": 18009,
+      "sha256": "577a4f167f73285e4e871c4bbf6392b34f94a0e2e787e68e710a64022a17faca"
+    },
+    {
+      "path": "firmware/Application/gimbal.h",
+      "size": 2051,
+      "sha256": "5598b855847b7200890d7ff3d68e72c9f4a7426c112ed9abfa2a27676fb7f54f"
+    },
+    {
+      "path": "firmware/Application/helm.c",
+      "size": 8161,
+      "sha256": "207b1dd653fd2460f058b95b6e6873cfa75f9e2ca829d635815fef866352a210"
+    },
+    {
+      "path": "firmware/Application/helm.h",
+      "size": 1709,
+      "sha256": "4ff514ce6fc40ea5fc7c3931ecf57e26cabd643a21d1ab2a7ee5087f9ad45f05"
+    },
+    {
+      "path": "firmware/Application/ins_task.c",
+      "size": 10511,
+      "sha256": "3b8ed7a0ff917562fd18912e877142e7b5e9252ea636ee90ff58831f19be15aa"
+    },
+    {
+      "path": "firmware/Application/ins_task.h",
+      "size": 1854,
+      "sha256": "20352620c57e707dd78d338884d32658e69b55578274a32e574f8bb9c1341aa8"
+    },
+    {
+      "path": "firmware/Application/protocol.h",
+      "size": 2031,
+      "sha256": "7168bb614b46c876c8832d3cf3dcb8a5e192f2acc9b0d0fde75b1c7b01e8627e"
+    },
+    {
+      "path": "firmware/Application/shoot.c",
+      "size": 24440,
+      "sha256": "0a9b3df84e43f49f99a41a1cb7c2e2e5e90170a1d498fd4ab29ccd34588b1083"
+    },
+    {
+      "path": "firmware/Application/shoot.h",
+      "size": 5744,
+      "sha256": "42b7e277a5b977bb969f00e2b9cd906be716466dc914807091cbd51b8d191fe9"
+    },
+    {
+      "path": "firmware/Bsp/DMPower.c",
+      "size": 7695,
+      "sha256": "6133821dfff0593192aae3f55b83ec29d31506ddb8edcc8865efd3ccf3ab11b3"
+    },
+    {
+      "path": "firmware/Bsp/DMPower.h",
+      "size": 1321,
+      "sha256": "2b84a357f650a8d609ca9d759dcda6c1dac0e782b25df3a65b476c0a860324ea"
+    },
+    {
+      "path": "firmware/Bsp/bsp_PWM.c",
+      "size": 953,
+      "sha256": "53b27be01047aa58751111896957d38218dd3d956561aad456a27f787d8d926a"
+    },
+    {
+      "path": "firmware/Bsp/bsp_PWM.h",
+      "size": 553,
+      "sha256": "2437d6b669b897b30bba2375d23a6a47889d39271a5aa32b272716a18a8c078d"
+    },
+    {
+      "path": "firmware/Bsp/bsp_can.c",
+      "size": 969,
+      "sha256": "8490afcf896c2676d540d1e948ea6c4d7d42b5130defe5bede8c0c68520b758d"
+    },
+    {
+      "path": "firmware/Bsp/bsp_can.h",
+      "size": 109,
+      "sha256": "19414e8d095344d3cc614fb65f5392cf305c38b0735e8fc90d72aa29ec71eef4"
+    },
+    {
+      "path": "firmware/Bsp/bsp_dwt.c",
+      "size": 2858,
+      "sha256": "16e415eda555adae1f13424b3922a95fc70aaf480198884e6cc7472af5e755ca"
+    },
+    {
+      "path": "firmware/Bsp/bsp_dwt.h",
+      "size": 851,
+      "sha256": "f242c6480ad829f44c5ec5f699c8f4d2ea5944d378af9440a2cf3c35d495f238"
+    },
+    {
+      "path": "firmware/Bsp/bsp_fric.c",
+      "size": 46,
+      "sha256": "81f5628a2d2b6a1f29cf883761240c8c455e8e90f91817bb938b24337f000222"
+    },
+    {
+      "path": "firmware/Bsp/bsp_fric.h",
+      "size": 278,
+      "sha256": "1cade6acb97831581d65f4af66cb73c459a24a51e974e8583448876116838cfc"
+    },
+    {
+      "path": "firmware/Bsp/bsp_rc.c",
+      "size": 1123,
+      "sha256": "912ad5d9905cd3618cd984e0301d64ccdce0ce80415dfce356cdddbd2b9b7d44"
+    },
+    {
+      "path": "firmware/Bsp/bsp_rc.h",
+      "size": 149,
+      "sha256": "9d52031d7af692367ee87da877fa0eb0611ba78c238a2ec8927607a016deb578"
+    },
+    {
+      "path": "firmware/Bsp/bsp_uart.c",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "firmware/Bsp/bsp_uart.h",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "firmware/Bsp/bsp_usb.c",
+      "size": 763,
+      "sha256": "dc5f43f604c968f4f97c93509d95897b6313d0c18188e7c25ad88277a146f670"
+    },
+    {
+      "path": "firmware/Bsp/bsp_usb.h",
+      "size": 183,
+      "sha256": "4d853d3c9eb8f01151f63b3473f2bb0fe274236ac6869784f46cee485fad87f6"
+    },
+    {
+      "path": "firmware/Bsp/struct_typedef.h",
+      "size": 437,
+      "sha256": "5995cefa4fdd7a052c869cf90a39c709c685c77dbba092a859768e37a6a9020e"
+    },
+    {
+      "path": "firmware/C_Board_Standard_Robot.ioc",
+      "size": 17457,
+      "sha256": "c575b1ccdb3de92d79022e8479d24f91bd4db00d72580bee969271317bd5621d"
+    },
+    {
+      "path": "firmware/Communication/broadcast.c",
+      "size": 26,
+      "sha256": "c07047d8d6799590d41991b1cdc8a3063e0f5045296b545518b88b983f9b4882"
+    },
+    {
+      "path": "firmware/Communication/broadcast.h",
+      "size": 56,
+      "sha256": "f8f4301931ccde5d4b2b49b0eb7e109e16eb6d3118bdeeeeeaa80f5535ad6fb8"
+    },
+    {
+      "path": "firmware/Communication/pub_sub.c",
+      "size": 2951,
+      "sha256": "5632b53b9430f0c2b087e7a489c4363271e76c8be44acea9ba79ebdc5ceb0e5b"
+    },
+    {
+      "path": "firmware/Communication/pub_sub.h",
+      "size": 1089,
+      "sha256": "f92f425ab7b106dda52931f524dfc4790d1f58155a45ca9757d594f7f0b0c64a"
+    },
+    {
+      "path": "firmware/Components/Algorithm/Include/arm_math.h",
+      "size": 244621,
+      "sha256": "280aa185ec4e8dc75062ef45caa63a01a9f64b1f8f254ebc46c599fcf14cbc89"
+    },
+    {
+      "path": "firmware/Components/Algorithm/QuaternionEKF.c",
+      "size": 19234,
+      "sha256": "3b360a13048e372a7aca8c2c1a1a339da8496e6d2f051df14e5abf52ade1aa5b"
+    },
+    {
+      "path": "firmware/Components/Algorithm/QuaternionEKF.h",
+      "size": 1908,
+      "sha256": "119c7d84e96b6417aab7b3750d52cbc0d5ee376f45946c566dccfdc30a4ac916"
+    },
+    {
+      "path": "firmware/Components/Controller/controller.c",
+      "size": 19457,
+      "sha256": "de7277c2ee736fc2b1401f9f396ae5e98c3c69e95f3feae2766ce3a5b1103281"
+    },
+    {
+      "path": "firmware/Components/Controller/controller.h",
+      "size": 5743,
+      "sha256": "c0e1eb2e3902d5858c4baebf0d80df429b781151202a505f230f99f7f1981933"
+    },
+    {
+      "path": "firmware/Components/Devices/BMI088Middleware.c",
+      "size": 666,
+      "sha256": "389a9aeafe4f084e9d59895c1c191dcdb22b3214348179dde7e1f897a0cbc5a8"
+    },
+    {
+      "path": "firmware/Components/Devices/BMI088Middleware.h",
+      "size": 764,
+      "sha256": "5bd032c7ebea958edb568f83f1edc5b7a9fd00f3bbc3b83053afe6a7e79ac39a"
+    },
+    {
+      "path": "firmware/Components/Devices/BMI088driver.c",
+      "size": 15523,
+      "sha256": "0eaaf748702017f9358d69152f9374e150486ad13f55b5acb81e8849211586a5"
+    },
+    {
+      "path": "firmware/Components/Devices/BMI088driver.h",
+      "size": 3255,
+      "sha256": "8488922685a9663e23262f5841a3695950a610f522497e4b23a042c269632fff"
+    },
+    {
+      "path": "firmware/Components/Devices/BMI088reg.h",
+      "size": 7025,
+      "sha256": "66cf0ef50fc9bfe80731f57a139b656c5b05b223946049823ce487f37d4ee923"
+    },
+    {
+      "path": "firmware/Components/Devices/transfer_function.c",
+      "size": 1505,
+      "sha256": "40e603ccdcac77f115dd2dd9eee1a15186cf5133a33343c6f8c2b90ca0e8d4a1"
+    },
+    {
+      "path": "firmware/Components/Devices/transfer_function.h",
+      "size": 1226,
+      "sha256": "503156d9b20f4b22317656210e2da8af82ee9203a1e45d9a6bcb51ca74a31562"
+    },
+    {
+      "path": "firmware/Components/kalman_filter.c",
+      "size": 19175,
+      "sha256": "edc7d0cf30d5afc924a8b4ee7315d5868fbe7eefbd6481dcb866044e8497de15"
+    },
+    {
+      "path": "firmware/Components/kalman_filter.h",
+      "size": 3918,
+      "sha256": "821ce7df9fa29eb7a1afdf992adf84ee4bf8b6a8e8835c84b7dcd1b6684c1f84"
+    },
+    {
+      "path": "firmware/Components/user_lib.c",
+      "size": 9433,
+      "sha256": "8e2860085748798ed334f41bc26325862162b095dc0f8492694f16c4610f40fa"
+    },
+    {
+      "path": "firmware/Components/user_lib.h",
+      "size": 3750,
+      "sha256": "961ff0695345616268d14dc9141a16764e274ee3b129e6da4f1c1168a33ed32e"
+    },
+    {
+      "path": "firmware/Controller/pid.c",
+      "size": 5821,
+      "sha256": "07e51bd6f969abe91cdc3d0625e18e0102a3c4d6c4cab200ae21dacff5a53459"
+    },
+    {
+      "path": "firmware/Controller/pid.h",
+      "size": 2133,
+      "sha256": "f274cda73550bd2c934da924657ae1d3ef78df4b25e5ca14cafc659e5987e745"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/DSP/Include/arm_common_tables.h",
+      "size": 6035,
+      "sha256": "4a9cce560c4b8d271d4cab05e61d0a7ad62d48796aca384c8372cbbdce41f43d"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/DSP/Include/arm_const_structs.h",
+      "size": 2961,
+      "sha256": "d0fb4fced1cc569be1cbd45abd5bd99fcdc4a90a5c861282c50f488298f41e98"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/DSP/Include/arm_math.h",
+      "size": 246325,
+      "sha256": "f9e65613d6d25b1c22672dc01bfd3c4daf968807ebbf96dee2cc8a87ae65e79e"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h",
+      "size": 1349879,
+      "sha256": "caa27bcf154eb9472464bb7d998a5242ae5b933cbd1b20deaff9e3d1b058b808"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h",
+      "size": 12380,
+      "sha256": "b6ec6184ed8efe67d5edd9402011ebfcc30b2d981c7f4eb69086113369bbe264"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h",
+      "size": 2357,
+      "sha256": "e04284cef14b716e766f42534fdeb0548182049aad6e68450fbf9eb6d6678ab4"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt",
+      "size": 377,
+      "sha256": "d65cad1327eb8dae95d0aeab71fb22505f99a3d7cd1ce2530d7d40c52aece002"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_armcc.h",
+      "size": 28208,
+      "sha256": "57b8d88cd03152f60bf74de0149ec979ae20210d86ab06e837aa69c66f27d615"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_armclang.h",
+      "size": 56497,
+      "sha256": "da29dbad3cf27f6c86437af6bd0b302e105210742ad7a602bea51b104f1661c9"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_compiler.h",
+      "size": 9014,
+      "sha256": "cd3cbd1c771a5252827a14c75a12e7ed975f76b9fc1577d53a74ba0e7c1af6c3"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_gcc.h",
+      "size": 62344,
+      "sha256": "8c16d51f7884a9fc07c5cbe6f2bcd24e5e092ddc519f71d36740c2d2e2ff6a27"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_iccarm.h",
+      "size": 28414,
+      "sha256": "a600765888c69ee60cd2d01d77356902d4ae5fa98aa7e1d73703663c96b7f87a"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/cmsis_version.h",
+      "size": 1716,
+      "sha256": "280b9fc8739aefa878d47e68d7adbd4908a15f98ec193cdba1a4b514133f5c34"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_armv8mbl.h",
+      "size": 97995,
+      "sha256": "220d90f3f99126e656c31c32f099ff766b32cf487f7dd77388e4c9a78e1898c8"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_armv8mml.h",
+      "size": 168914,
+      "sha256": "825a8799d71f3fa29690b1597dfc2dfb660b103d44e20b8185f26b4f3b4ffdf0"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm0.h",
+      "size": 42208,
+      "sha256": "1beaa04c859225f75142d055e9c5dacfc9ac1d88c82934177f745b9c5f3f4094"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm0plus.h",
+      "size": 50464,
+      "sha256": "c953256e1c1b1cd6accbbfca5d47c09a9b0534f3147b125e17e59c0ae6c30ed7"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm1.h",
+      "size": 43456,
+      "sha256": "460281028a261740cd5ec86840bed01c480d70ba5b54a0f9938d4cefadfd486b"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm23.h",
+      "size": 104628,
+      "sha256": "6303efec943ca0f9eccdab8fc39200d6f95dc943d4051198e0d49f24395028a5"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm3.h",
+      "size": 111854,
+      "sha256": "368296087a925cf78133d27e0854d748605441915e0f4fece93f2f97eea68adb"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm33.h",
+      "size": 175600,
+      "sha256": "7f1b6a76b119e1e1680f756da897929f63d98133442c5115678af60adf20f1a8"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm4.h",
+      "size": 123607,
+      "sha256": "738dff259c25e68ed2529baf425315d8dae1af5dac6c11b66bfdef82e78e86c9"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_cm7.h",
+      "size": 148588,
+      "sha256": "6b75e3bef1eb81e0d3e2c311ad26fcdbac4cde2cd3462a62b81a23f6aec0e55f"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_sc000.h",
+      "size": 47249,
+      "sha256": "d1528d13fbf91da620ef977e99802d83ded093c0521c04cad128da23e3001524"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/core_sc300.h",
+      "size": 110523,
+      "sha256": "fa514ea0cf5327b0523c2bdfebfb76fd2e69f972e5f60fbfb94ade56b31c722b"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/mpu_armv7.h",
+      "size": 11711,
+      "sha256": "b0b6da4ec744b5f547a94e60e24b0a6ff6bb7307d3f81a83d0b7c3a64dc29326"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/mpu_armv8.h",
+      "size": 10958,
+      "sha256": "8280a1d4d3d25f60cdc05b84718cf504f02b7265fc3b7c5790cb29cd7dcf116c"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Include/tz_context.h",
+      "size": 2757,
+      "sha256": "7fcc21fc190f6fd970390e9caaa6a86d72fd10f9edf4efab36f12aecf1a8baa0"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/LICENSE.txt",
+      "size": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Lib/ARM/arm_cortexM4lf_math.lib",
+      "size": 13707672,
+      "sha256": "33c452bf92001d66955b4dc6485cacc168c93c82533e6510791be9e6ec6d0b2a"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/Lib/GCC/libarm_cortexM4lf_math.a",
+      "size": 3097502,
+      "sha256": "73e7c4f8ce6ac7c3909c90a2ef0dd6d8cf99119969057c1cb898ea3bf9b40d96"
+    },
+    {
+      "path": "firmware/Drivers/CMSIS/docs/General/html/LICENSE.txt",
+      "size": 11357,
+      "sha256": "b40930bbcf80744c86c46a12bc9da056641d722716c378f5659b9e555ef833e1"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h",
+      "size": 224273,
+      "sha256": "5f5f90bf2d65d2c2785e5fbfe2c565387340a8fd075a3c74e9cdd629a967ca1e"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h",
+      "size": 12980,
+      "sha256": "78f46c52267d3bb7a68349fbf02ecd9f6e2e375e3feb80ac0829a870bddcd514"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h",
+      "size": 43779,
+      "sha256": "054f3b0e985451b804a550bcefc1c502b9dc4f314a925ef47811892d96c97e16"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h",
+      "size": 17370,
+      "sha256": "d1d2bbdbd7fc036e35aba501959567c7c9d98ebecd7bd1e8e9e251757a0b4680"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h",
+      "size": 7732,
+      "sha256": "61c2562068aaf5959025c75f686a5a0017c95d46902bc7f5f49be15ba3122061"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h",
+      "size": 38671,
+      "sha256": "4dc4d29c8930a5ec06b6f4b13480bed13c238d2674b3afac47e6f71b2ae25b98"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h",
+      "size": 2753,
+      "sha256": "8aa0a347b502d924077675ad9bb446cf40b3a6dab47cf8a6b5a9f9e21dbfcf20"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h",
+      "size": 15199,
+      "sha256": "e786fc8c276267ec0650ab0fc5853b2ca63697131947321a4e7e7175554c3b04"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h",
+      "size": 14858,
+      "sha256": "734543040b2e25b165c9087c36af91fda8efdcfa8834440696384cd48f831e20"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h",
+      "size": 65259,
+      "sha256": "f34511eec786510d75c096e33324648fc47d5f325666ac4cb724caccfc5bc271"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h",
+      "size": 2293,
+      "sha256": "cd2d5ab9f93e7ac34846468450fee989d47280d97af99231d6e600e254f6c9cd"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h",
+      "size": 14012,
+      "sha256": "5829d91f2e060d30f5798dc71e4fef5d7ffa7d99da21e751ee03d527d664307f"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h",
+      "size": 82731,
+      "sha256": "5963c4ea366cfd6de3a91792a382de6327d86542a6278592cc2b79e594c8ad91"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd.h",
+      "size": 19608,
+      "sha256": "54be7d953dd4ad4810150a6b213feab663ccdb63c7e82100eb20c72e02e09625"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pcd_ex.h",
+      "size": 3418,
+      "sha256": "a14b947ef00e365d54a31e0d53dcfa6c51c6cf9dfa62eecabe87594880902035"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h",
+      "size": 14527,
+      "sha256": "5b4b4a1f271ce31583cb6cbe2a4c79a9360880e65de624d2687bd216b4c0d1cb"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h",
+      "size": 16224,
+      "sha256": "3f0cac843abd6c0ae3ef9a4edc6353b6f96052f8d297bf8a474f23bdd9a1576b"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h",
+      "size": 75098,
+      "sha256": "a1ef3c6da1d51495fb762d94dfc9dd68fbe5e56e91e2cba2bc3acfb46df9feff"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h",
+      "size": 440312,
+      "sha256": "0d58608e44e82538c3d245102bbe77d187b8ab9399d09ff48801e1c9b5df7b06"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h",
+      "size": 32853,
+      "sha256": "92405f4477eaa49332dff81c33a60a061a483e47b5465a19170c81df752c4ef2"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h",
+      "size": 124348,
+      "sha256": "dfd0ea2257e307ab1b4fd0389d119209b80e66d1f97301f36e26fc5904a2755e"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h",
+      "size": 16813,
+      "sha256": "dbc24536210d6683b8100dc05ac8d67eee4c89f52cb35ef8bbd1f080bbf39ba9"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h",
+      "size": 45307,
+      "sha256": "45fae2a06a9fc176fd0a55fd28db11e602500a2b7bba450dd1b1d711016184fd"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h",
+      "size": 101909,
+      "sha256": "d237f4a55ff8221babef14237cea628055f2e5e227abf308b2df56a4c6aa167a"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h",
+      "size": 24804,
+      "sha256": "9adce1cae0612efb22b9467f673c76cd4f526aaf2bc9d5fd0b1b4b155bb611a2"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h",
+      "size": 109906,
+      "sha256": "f086ba919dbf5c98fba89317bcbd239fe1b647167cbaa810ce2dd02302ae8eb3"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h",
+      "size": 35019,
+      "sha256": "96329e1fc07ea1d7db3a7970af4d97a5172e29cf9be5e7a45b7a011c960a33b9"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h",
+      "size": 38426,
+      "sha256": "b874a353f6075b18a7b352f8eac77497c32eff162ec0005be4c75346fdff3908"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h",
+      "size": 32524,
+      "sha256": "187dec9842b95cf7f2a448bbb7a2c1b98ac8c8d0ea69d68cbcd5b05c4eaeb6b9"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h",
+      "size": 348202,
+      "sha256": "ece5ba9aa627b04045437232bb332d1777d92f361de9609c5d65290a425a9e41"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_spi.h",
+      "size": 67771,
+      "sha256": "48db9b7fe08a2f294cbb755864da342228f01c343615ebfee60eada77d50a540"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h",
+      "size": 72383,
+      "sha256": "fef5ea5a5bfb7f2c4059fb2c1262d884f0f25b379a3a982ddefd81c50ed5cd89"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h",
+      "size": 178319,
+      "sha256": "5c3219003d80c287046e29d68591753f91457339ecec85f21ee5947a9b8e9b84"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h",
+      "size": 100100,
+      "sha256": "91f942ae1991e496a78ec257c7c2add426060ed02d3541db92402ce9efc6518b"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usb.h",
+      "size": 21511,
+      "sha256": "5c000bd4f498fb957c6a16ca0d9d5a2a13fca2ae31d6ecb7fe18babc40402d4f"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h",
+      "size": 10941,
+      "sha256": "541da4ac68d22e174ca4a038240f8da3024b29cdf33ed0f9c9af82159239facc"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt",
+      "size": 383,
+      "sha256": "bdc7b0f98db4846279336431024c49a01d578a2ea1d19ec68797bbe33e718d2d"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c",
+      "size": 19758,
+      "sha256": "2e4e55ecd6b1bc29f8eb4f42f6395a82684babc6cc5e1240bc2e8e5fb9412144"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c",
+      "size": 83407,
+      "sha256": "0847b76eff36f60c2a1bff8278a604fb46a10a90c81aa5bd2a0b28b21bc94982"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c",
+      "size": 19171,
+      "sha256": "b6bcb607cf50b37e88aea6e4a9ce87de0688de067042f7747f61bbf34bbbf1fc"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c",
+      "size": 40830,
+      "sha256": "f3da7dc31942b79a88349c7f7dd38f6b586656b47c6fc78c8283925176368763"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c",
+      "size": 10587,
+      "sha256": "000253cec2e4c9e0678add30a7b01f854b27f4271cd3124f43023b993eec54ea"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c",
+      "size": 15475,
+      "sha256": "dd0b7d5615197176ea61d7d19ce95090d5b53f26a9879cf568c4ae244d38925d"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c",
+      "size": 24788,
+      "sha256": "05de175a6754ebf6caf91651de750ee8cf05fe0549adc5e0573050b0f855d4ea"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c",
+      "size": 51251,
+      "sha256": "ec7f19883964d7fed5005e24611db97d5ad2dbdc5b63851e2587533e72cb632a"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c",
+      "size": 6199,
+      "sha256": "2c33420eab6aed3919241162d10b8ae21ec062d2904a4ceb7f9fbdcefabed147"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c",
+      "size": 19377,
+      "sha256": "72d8f3cb23a396cdbf9183c5cea2a0c00cfa0336def3736652480c4491f38788"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c",
+      "size": 65975,
+      "sha256": "d509b5bb57b109e68ad3780a8adbf7f204ef72781f51c118ee2f3dade20b6fe9"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c",
+      "size": 10715,
+      "sha256": "17b38a1a830d2727a94f1fbe91941dff708cfaf743e36d9c9d6250c958e8336d"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c",
+      "size": 21048,
+      "sha256": "c0a1e24c147e87f678d693a94040ef5f9c4da4d38773ee26836911d87bf3c5a9"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c",
+      "size": 23373,
+      "sha256": "fc8a26ad3a0f8359817c1b08c68af50b9f7905a69c44e4599225eaa53a66e856"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c",
+      "size": 43461,
+      "sha256": "afd19b590332cba54d72fe33ff37b6bf316d43ea03f95cf949d01b65cd559ce4"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c",
+      "size": 159220,
+      "sha256": "9b9910941d52d206cd29f8661b5d531cb4abcdc94a6401f7aeeb29fb402ea8bf"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c",
+      "size": 127930,
+      "sha256": "f60e3f365b0c2a5006390405858e7b56a0e67d91c479fe4da70f07a0121e76ee"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c",
+      "size": 251043,
+      "sha256": "a50a056755d2f71a59206dce93a2842f0d74a1ee73a853dd5e5b3bcb8db4d0c4"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c",
+      "size": 84786,
+      "sha256": "cc9b23f3fe90bcf21fedecb74a3a4d769cf8458f7703b32200148b2af43a7afe"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c",
+      "size": 136267,
+      "sha256": "d05333aa4517503a13cf4dbe6415ad5bd5cbc545907dcd1a6b7412f62e7b3ae1"
+    },
+    {
+      "path": "firmware/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c",
+      "size": 64015,
+      "sha256": "2e07b687e9f376d5317408764aa170ed777c7eb51840a0877670c59616e678ca"
+    },
+    {
+      "path": "firmware/Inc/FreeRTOSConfig.h",
+      "size": 7079,
+      "sha256": "e6b4973b9216ec8f874504d48357e8eb4d979ed00b0dc0b7231238b9b1ee6172"
+    },
+    {
+      "path": "firmware/Inc/can.h",
+      "size": 1406,
+      "sha256": "5059f4b00953bc9b6de3c125033fa1a265b883b189ad504f083efdb096496ea8"
+    },
+    {
+      "path": "firmware/Inc/dma.h",
+      "size": 1393,
+      "sha256": "ca81391056a411962c83db097580c964ef66c2b417ed80cadd3606fcb91a62d0"
+    },
+    {
+      "path": "firmware/Inc/gpio.h",
+      "size": 1313,
+      "sha256": "ed4dd400a061ad318521cf96ae903fe21d1aba75fbb685603c3f78db56df226b"
+    },
+    {
+      "path": "firmware/Inc/main.h",
+      "size": 3182,
+      "sha256": "88863e592fbde9ea7736afdc1d1f94c760fbe83043b30316e24a1711e0d039ee"
+    },
+    {
+      "path": "firmware/Inc/spi.h",
+      "size": 1345,
+      "sha256": "95ad049d73d65cd819bf104eb40784ffd816aaababa83198cb1bdd3ef61a4656"
+    },
+    {
+      "path": "firmware/Inc/stm32f4xx_hal_conf.h",
+      "size": 20001,
+      "sha256": "44c4a0b65e64b31097cf8c5b8a8df1801dd17f59f5954f070e72159b736fd853"
+    },
+    {
+      "path": "firmware/Inc/stm32f4xx_it.h",
+      "size": 2468,
+      "sha256": "a0719a38f520eea955e0c9d8295d56ba00a6a0c7acf2eb0d2b6090f9f584f7cf"
+    },
+    {
+      "path": "firmware/Inc/tim.h",
+      "size": 1401,
+      "sha256": "a42a176aed651142279a4fee7797b11d46e4bcc08a85fce9a836ed51b0c76a6a"
+    },
+    {
+      "path": "firmware/Inc/usart.h",
+      "size": 1504,
+      "sha256": "81c80cf0c20a4d03a0871c8b9612297e9496a30507bac7774a0c824c840096fa"
+    },
+    {
+      "path": "firmware/Inc/usb_device.h",
+      "size": 2336,
+      "sha256": "3d05e4678520d01ffc9880adbf48fc275a8ef6a726d54e281c6d4491f0745821"
+    },
+    {
+      "path": "firmware/Inc/usbd_cdc_if.h",
+      "size": 2773,
+      "sha256": "2b648861fb694c2e35a696e28b2fdcc8f4cb595932e564ddbc3d222766d10dba"
+    },
+    {
+      "path": "firmware/Inc/usbd_conf.h",
+      "size": 4098,
+      "sha256": "3b2d4579d40b3cd428046b76e3db8e0c8856bca5d81cddef1b4c7bf57e7af543"
+    },
+    {
+      "path": "firmware/Inc/usbd_desc.h",
+      "size": 2977,
+      "sha256": "975840e3667648512276047fe6fdc6e25df6c6ff94bf97ddfcc62495afb1d487"
+    },
+    {
+      "path": "firmware/MDK-ARM/C_Board_Standard_Robot.uvprojx",
+      "size": 130852,
+      "sha256": "b138e7e31aaf837de4620cfe63731e998431e3bc5bb62964af31ddc5dd699bc7"
+    },
+    {
+      "path": "firmware/MDK-ARM/startup_stm32f407xx.s",
+      "size": 28998,
+      "sha256": "89e38279a82dde5ea30156fa30bfcfe4bfc6d74c0554847e39806f380b746e75"
+    },
+    {
+      "path": "firmware/Makefile",
+      "size": 6916,
+      "sha256": "92c7943f160bd65343ce23498c4b24ad39e9b700fb2ffe211dd570340fa5ff1f"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h",
+      "size": 5127,
+      "sha256": "ac1ca7364a57a9927864de173b83e8e9415cf7ae8be97d550973a25e13eea596"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c",
+      "size": 28306,
+      "sha256": "eabd8493f0f71436d9885a7e928f6ec03855a117576134e35d65342611bbf2b8"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h",
+      "size": 5595,
+      "sha256": "f593c1b9628eb67229edd59164c970e699d91d40691efc9956bb82efe4d3964e"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h",
+      "size": 2106,
+      "sha256": "0d766fe68a0f746b29caa7c6ea1e96c45c5fca50360e1d224c19935a76eb666f"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h",
+      "size": 16389,
+      "sha256": "870e6ef67d27359c3ba5158d83425d54228ee021838d71c0291b4b511696e560"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h",
+      "size": 2422,
+      "sha256": "fc7ffbed8ff7752453bb510493b43165ef29f4c5091e50fb6d0c4c8652d4f560"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+      "size": 30614,
+      "sha256": "61b0edbeb0e9c921dd8580eeeb18c85f0ddd1fa0a6228b592076667148acae78"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+      "size": 25675,
+      "sha256": "08302a5e0379cd85428ae2a17d3d43420c9c47d8233f91a8813a0bddfc087b1d"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+      "size": 5017,
+      "sha256": "047c63014d1242a8d4254495d019f710bead71de566897c6daaf97f496a019b4"
+    },
+    {
+      "path": "firmware/Middlewares/ST/STM32_USB_Device_Library/LICENSE.txt",
+      "size": 4748,
+      "sha256": "5db16866e0d240442f8382ee5b76eac16ed02912fd51ef2be55817b7cadd703b"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.c",
+      "size": 50888,
+      "sha256": "4fe9dc4cb26fced50176deaca2da0e867218c02ac3f8713c21b2df25a56f4edf"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h",
+      "size": 50431,
+      "sha256": "6a7548650076cf17f0090a7195a786a759fdb87f184babf8cbaffbf992417afc"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/LICENSE",
+      "size": 1119,
+      "sha256": "49678287e48228d68af25ed82841491552b0646e31a8080165758fa72b67105a"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/croutine.c",
+      "size": 13177,
+      "sha256": "e31cd1c9c280c919a92edc28885e9bebce589d4cfab71cefab832a73683200fb"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/event_groups.c",
+      "size": 26791,
+      "sha256": "a72063c3977fad098a87a5430e04e9fc5b892d703e01fbe09ea907f67aacf20e"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h",
+      "size": 44047,
+      "sha256": "b7a81501c3f4ff9537df5c9a5e0231f37638cdc8324965ae10064128fded840f"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/StackMacros.h",
+      "size": 6216,
+      "sha256": "c27d1653d2f7f34292387cab8a8b074426cc1ef73aeaa27663d56ba634f7f8ab"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/atomic.h",
+      "size": 12265,
+      "sha256": "b74ab6f4aae9a397565adb5f14c9d8e33b9f782a2e35f77535af751413ac68de"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/croutine.h",
+      "size": 26538,
+      "sha256": "8df4c5eec7eb30262f09b7c47fc2eb0534a27721293b0d260a3398846494f9ac"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h",
+      "size": 7574,
+      "sha256": "382f8a7a0e00240fb69911dff8d8515248beb9dadfe77c22c4e5544f49cc76eb"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h",
+      "size": 30435,
+      "sha256": "3b9cbd64db721c4317544700fff4e42ac68d989f71b7d610b31087bb19175839"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/list.h",
+      "size": 18571,
+      "sha256": "f9b239f168976f7b167e054fa72616826f55ae4d74d76b87c9e70b2df079363f"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/message_buffer.h",
+      "size": 38204,
+      "sha256": "504a77558f13b66fd1eec5adf4d81e274f0b54c12880424833c24f577be0800a"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_prototypes.h",
+      "size": 14034,
+      "sha256": "3fafd21399ef619a55b2f8112750d750685c8ae1cb458363d21ee37a105ac6e7"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h",
+      "size": 9405,
+      "sha256": "c1fc47acdb79efb0fb8a0fb8a169ae4423fdc3a6d820b2f81d49e8e077c1ed48"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/portable.h",
+      "size": 8142,
+      "sha256": "39795c8dded505f24f53646ecd8192251851c74f366d2a5b0aae3fbfa68c191b"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h",
+      "size": 5751,
+      "sha256": "399814721d9735e91d74ca07be3974edb20639acb46a6792230ff9f61f67b353"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/queue.h",
+      "size": 61762,
+      "sha256": "39d58a203f1b67fdb1099293914a2af9722d223586cfc5ff06e230e047919dea"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h",
+      "size": 48291,
+      "sha256": "b9b2ff28a0c80fa21443690bb28de64c8b9451cccd57e484de0bcf02fc367575"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h",
+      "size": 5965,
+      "sha256": "7d1d30b6c9ae34bebb26b14402f78a59a35ae826f460a1ad28534c9590b32151"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/stream_buffer.h",
+      "size": 38507,
+      "sha256": "0607fcca1927ba782a29a3814481d69db3569e6e53a68ebf2c01f5598a3af2b8"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/task.h",
+      "size": 107786,
+      "sha256": "830990f7b17b8e0ce3bdb0a7475d2cdc7d659eafff16b88a855c84c06a7a2a3e"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h",
+      "size": 61482,
+      "sha256": "7fa62f648014533ce5bd8da1775ddd814cbf208f9af7c748a40bb8b50a8e8912"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/list.c",
+      "size": 8475,
+      "sha256": "e735517f308fad5dd77d03b6858c16bdbc937bb9d0754735849fc7799ebe2b59"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c",
+      "size": 16134,
+      "sha256": "c697b88e48e9906a19cabef187e5797a5a45009144f9e473262752c86a5d2c50"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c",
+      "size": 28558,
+      "sha256": "8ead28dcb0a2d4b8f2a658451ee5a123c86111049cbf155b78d29056aebe96ee"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h",
+      "size": 8369,
+      "sha256": "dd9a210bd4b6095ea2b763bbaf378e44f0a61ec4515745e165aac0ed329e472f"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/queue.c",
+      "size": 96600,
+      "sha256": "06a153c1ce111213af32dfc8797bd2e5c7819e264dfa338b4049f058dc1edb11"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/stream_buffer.c",
+      "size": 43728,
+      "sha256": "4376714fecad0f72dc4c8b45236591a7e0ffe24dd018382f56e8b0dfc2230b28"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/tasks.c",
+      "size": 178647,
+      "sha256": "8cb1eabe18f130b2b8980e880847f773fb12a4071c763d26c51624223b32a3a4"
+    },
+    {
+      "path": "firmware/Middlewares/Third_Party/FreeRTOS/Source/timers.c",
+      "size": 41215,
+      "sha256": "0d16405e621a2c4b003b5f0324b9713cd4865364133df6f742f482a6b2dbc773"
+    },
+    {
+      "path": "firmware/Robots/robots.c",
+      "size": 21510,
+      "sha256": "33b245da2570f2aa450dc60d48ff99d4b5b89a8a79f8b1edb5bc6ab527078317"
+    },
+    {
+      "path": "firmware/Robots/robots.h",
+      "size": 3885,
+      "sha256": "439c534b736458c2ce0465a4bafc8eb945a695a10e574868feaa8c63bbd54473"
+    },
+    {
+      "path": "firmware/STM32F407IGHx_FLASH.ld",
+      "size": 6448,
+      "sha256": "7273bf752a9284f3e76cc7f868a32fc1ef0704fd0db045412b352d68bf5be941"
+    },
+    {
+      "path": "firmware/Src/can.c",
+      "size": 6012,
+      "sha256": "25301bbbda8e10181d756394dd31ec5eb68b95aac76ca5e25b7a09e76931d901"
+    },
+    {
+      "path": "firmware/Src/dma.c",
+      "size": 2491,
+      "sha256": "55f056b7d61ef1baab4cb1373503b4bf9cd8aa74d60e349b8dc920f50d8fc7c5"
+    },
+    {
+      "path": "firmware/Src/freertos.c",
+      "size": 11259,
+      "sha256": "ee209de10b50e0bbb2121a3134297d8f8ed8fc98df89cf1105c8079c3a3f1328"
+    },
+    {
+      "path": "firmware/Src/gpio.c",
+      "size": 4709,
+      "sha256": "aac25290d08ee7ab00fa61d1109b5b180028cbee25689977fe67cb28af6ceba7"
+    },
+    {
+      "path": "firmware/Src/main.c",
+      "size": 6568,
+      "sha256": "437a230de9abb1d27b65c62f11033d170bf3803136ee791d8eb0c6cddc2162fb"
+    },
+    {
+      "path": "firmware/Src/spi.c",
+      "size": 5155,
+      "sha256": "3103095b5e534a8facbf437da70287d17dbbc578bbf1bd0a31b94ed63f828ed8"
+    },
+    {
+      "path": "firmware/Src/stm32f4xx_hal_msp.c",
+      "size": 2437,
+      "sha256": "22e56b7f7c449e90fe904f292c0ea9658a61a3d933607effc58ffd379d043763"
+    },
+    {
+      "path": "firmware/Src/stm32f4xx_hal_timebase_tim.c",
+      "size": 4565,
+      "sha256": "c6df4b11598655e8c0fdd8098f5dca235a075fb7f66063663c8b40c490a4d376"
+    },
+    {
+      "path": "firmware/Src/stm32f4xx_it.c",
+      "size": 10250,
+      "sha256": "c42144063cce00b7cf74a43f71c00e0abca1d88adbcea71f98dd8d0e1aaae559"
+    },
+    {
+      "path": "firmware/Src/system_stm32f4xx.c",
+      "size": 25730,
+      "sha256": "8497ae9015851ce03f48d5bf64d7e7205bd71a5018d56d4e5d53a583888b73be"
+    },
+    {
+      "path": "firmware/Src/tim.c",
+      "size": 3473,
+      "sha256": "851ef2840d7d9b462f457ff1d800b531fa9661da08dae222717f32bcbc99de30"
+    },
+    {
+      "path": "firmware/Src/usart.c",
+      "size": 11967,
+      "sha256": "02f5f71cde05f33728d90168ccd6f54d2b79565e2d2279c41eae87a9d77cedcb"
+    },
+    {
+      "path": "firmware/Src/usb_device.c",
+      "size": 2573,
+      "sha256": "fb07892872ea7cacc049a3b096c0efc679d0e14d724fd8698c39b8baab371e83"
+    },
+    {
+      "path": "firmware/Src/usbd_cdc_if.c",
+      "size": 9725,
+      "sha256": "1f44ee3808640cb60b42655520eb486536360bf9903c70b2ac9ce62b63f67c33"
+    },
+    {
+      "path": "firmware/Src/usbd_conf.c",
+      "size": 19706,
+      "sha256": "cdc0151362b37ca787a146fbe75eaacffbea75521e2be6e64e163b8eec574d0f"
+    },
+    {
+      "path": "firmware/Src/usbd_desc.c",
+      "size": 12231,
+      "sha256": "c1fda6bc7762a7c3515f316f5273aca7c017bcd09e633c866625dcc8799af64e"
+    },
+    {
+      "path": "firmware/UPSTREAM_README.md",
+      "size": 12387,
+      "sha256": "9d265a9c30aed0e2b43498bd215da505220f834deb9df767e046214aca9ca3d9"
+    },
+    {
+      "path": "firmware/modules/CAN_receive/CAN_receive.c",
+      "size": 14031,
+      "sha256": "c65813e299859f587b732b177bba533e40178fea0de54c050e72fd82bdac11d9"
+    },
+    {
+      "path": "firmware/modules/CAN_receive/CAN_receive.h",
+      "size": 6425,
+      "sha256": "9594f0447485649b8f02d41c40aac9783591899c1fa70b21370335098f873232"
+    },
+    {
+      "path": "firmware/modules/Dual_board/Dual_board.c",
+      "size": 2025,
+      "sha256": "791f54c636d2f3f235dadfa33b109ba14ff9e1d97dd3cfec5ad58b683799a74c"
+    },
+    {
+      "path": "firmware/modules/Dual_board/Dual_board.h",
+      "size": 343,
+      "sha256": "93555fb4fa2d78f8c79ce598101057101c25af6aeaa988c8ba8caf2cd548398f"
+    },
+    {
+      "path": "firmware/modules/PC_task/PC_task.c",
+      "size": 6529,
+      "sha256": "0dc3fea54d285c439dca81ff892430da685817b110753aa71baea77b25927f14"
+    },
+    {
+      "path": "firmware/modules/PC_task/PC_task.h",
+      "size": 2446,
+      "sha256": "98203bf323a8ac63e53e89669147209ce36874014b6c7df3a6eed9ff528f0602"
+    },
+    {
+      "path": "firmware/modules/VOFA/VOFA.c",
+      "size": 3265,
+      "sha256": "848c3f71d4f1f13441600fbc9a11e07a6780e8e3e7a5b373cd98205859097851"
+    },
+    {
+      "path": "firmware/modules/VOFA/VOFA.h",
+      "size": 267,
+      "sha256": "dd3bb8ba904e294f32c1099d558956cbd3546d294b0ec836c76dcb9a5f0d299d"
+    },
+    {
+      "path": "firmware/modules/referee/referee.c",
+      "size": 5666,
+      "sha256": "1b73ae7dd8296164319b22e25543ee21f80a1aab0e485a9401e37998b2c5ecc4"
+    },
+    {
+      "path": "firmware/modules/referee/referee.h",
+      "size": 5903,
+      "sha256": "dcff99c83ca401b018e7becc3c06024564ea28203d20f89325553829e1b9a836"
+    },
+    {
+      "path": "firmware/modules/remote_control/remote_control.c",
+      "size": 12063,
+      "sha256": "ef8b9318ba6f8dfad3acd7c15eb8e20de9135bc954b1580bcaa408f06cfb220d"
+    },
+    {
+      "path": "firmware/modules/remote_control/remote_control.h",
+      "size": 5266,
+      "sha256": "d3633d7114c16d817686495f291cee94f1f3b09e8ca6e9c751dbd6a18c8bea13"
+    },
+    {
+      "path": "firmware/modules/super_cap/super_cap.c",
+      "size": 298,
+      "sha256": "cc26b0f549802897088c76e37a1643e27271eb98d0b30c696c1b3e73d6ce5ddf"
+    },
+    {
+      "path": "firmware/modules/super_cap/super_cap.h",
+      "size": 345,
+      "sha256": "9f8bb5fbfefdfb304b05d205d3f08bd1032cf1c90f0c38afa80c90fde2ba3fda"
+    },
+    {
+      "path": "firmware/modules/usb_task/usb_task.c",
+      "size": 2691,
+      "sha256": "6ae5ab7188c7426a8bb8fdfb1d745ddd51ba6354b48ed023c11d3a6549614b08"
+    },
+    {
+      "path": "firmware/modules/usb_task/usb_task.h",
+      "size": 764,
+      "sha256": "8dfefece4e01e72fa2713746fa8670ebb4f567f157cd77f05bdf045ee4568655"
+    },
+    {
+      "path": "firmware/startup_stm32f407xx.s",
+      "size": 23042,
+      "sha256": "dc128f9c9d88ea4254e1bed713dbf37cdb2f63c3f2886d0d6a092f52cc640c7c"
+    },
+    {
+      "path": "firmware/support/CRC8_CRC16.c",
+      "size": 8793,
+      "sha256": "d8c55414c47138b866d9a721fda7736ec3181feb3902f44f6421ecd7e3c749c6"
+    },
+    {
+      "path": "firmware/support/CRC8_CRC16.h",
+      "size": 3501,
+      "sha256": "1737b92c0baa3545e552e1c7ea37077fda5c3f6a599aab619c38ebf2bf151c15"
+    },
+    {
+      "path": "firmware/support/fifo.c",
+      "size": 28517,
+      "sha256": "8ae37c81c5865082cc1c2111c7549156aafc4e84d7b0cbb7a1d836554253f0c0"
+    },
+    {
+      "path": "firmware/support/fifo.h",
+      "size": 14114,
+      "sha256": "8ece5f1873b32c3d9fc516bd16d9d06e5bc4fc19fbfe2663063498653a12b1a2"
+    },
+    {
+      "path": "firmware/support/linux_list.h",
+      "size": 11801,
+      "sha256": "b3f9b8ea46da1171c7072ee1e04c3cd3db3b3c317cc8e285d12964ee54381503"
+    },
+    {
+      "path": "firmware/support/macro_mutex.h",
+      "size": 1010,
+      "sha256": "21b76b88fab37f8b83f9e72f6e51c2a59e773fe5a9d60912adc7ce7fdbaba1fd"
+    },
+    {
+      "path": "firmware/support/mem_mang.h",
+      "size": 766,
+      "sha256": "b305d51e0f99b9e53929fe9e2edff9354c15edae79eb556e853853937db8832c"
+    },
+    {
+      "path": "firmware/support/mem_mang4.c",
+      "size": 11047,
+      "sha256": "389ce8cb05468da72d1503af0a2fc5381009554b28fdd7f2478fb8b73adfd141"
+    }
+  ]
+}
