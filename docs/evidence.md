@@ -1,5 +1,11 @@
 # Demonstration and testing
 
-The firmware and task configuration are available for source review. A recording or measurement should identify the robot, board role, firmware commit, enabled tasks, and test conditions.
+The recordings below show the physical robot in operation. The archived firmware configuration is documented separately in the build and configuration notes.
 
-Useful evidence includes chassis translation/rotation, gimbal motion, chassis–gimbal coordination, board communication, and source-linked measurements. No new video, measured tracking accuracy, or full-system execution result is claimed by this repository split.
+## Video recordings
+
+| Demonstration | Playback | Repository file |
+| --- | --- | --- |
+| Movement | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/movement.mp4) | [MP4](../media/videos/movement.mp4) |
+| Slope climbing | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/slope-climbing.mp4) | [MP4](../media/videos/slope-climbing.mp4) |
+| Shooting | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/shooting.mp4) | [MP4](../media/videos/shooting.mp4) |

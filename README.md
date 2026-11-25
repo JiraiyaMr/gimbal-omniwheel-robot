@@ -1,5 +1,15 @@
 # 云台-全向轮底盘机器人
 
+## Demonstration videos
+
+| Demonstration | Playback | Repository file |
+| --- | --- | --- |
+| Movement | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/movement.mp4) | [MP4](media/videos/movement.mp4) |
+| Slope climbing | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/slope-climbing.mp4) | [MP4](media/videos/slope-climbing.mp4) |
+| Shooting | [Watch video](https://jiraiyamr.github.io/assets/videos/omniwheel/shooting.mp4) | [MP4](media/videos/shooting.mp4) |
+
+[View the project on my homepage](https://jiraiyamr.github.io/#projects).
+
 ## Gimbal-equipped four-omniwheel robot
 
 Standalone robot project from Hexi Liu’s RoboMaster development portfolio. The project includes chassis and gimbal application code, robot-level command handling, and CAN-based board communication. The uploaded firmware remains an archived board/configuration snapshot.
