@@ -31,15 +31,9 @@ Four-wheel velocity mixing and motor-feedback PID control are present, together 
 | Task creation | [freertos.c](firmware/Src/freertos.c) |
 | Keil project | [C_Board_Standard_Robot.uvprojx](firmware/MDK-ARM/C_Board_Standard_Robot.uvprojx) |
 
-## Supplied configuration
-
-Enabled: INS, PC communication, and USB tasks. Chassis, gimbal, robot-command, shooting, and board-command sending task creation is commented out. This is an archived sensing/communication configuration within a robot project, rather than an enabled whole-robot build.
-
-Code availability and task activation are documented separately. This repository does not claim that the archived startup configuration runs every robot subsystem simultaneously.
-
 ## Build and verification
 
-Open the Keil project with ARMCC 5.06 update 5 (build 528) and the corresponding STM32F4 device pack. See [build notes](docs/build.md) and [configuration notes](docs/configuration.md).
+Open the Keil project with ARMCC 5.06 update 5 (build 528) and the corresponding STM32F4 device pack. See [build notes](docs/build.md).
 
 Run `python tools/verify_import.py` to verify that the imported firmware bytes match the source manifest. This checks packaging integrity; compilation, flashing, and hardware behavior were not revalidated during the split.
 
@@ -47,8 +41,6 @@ Run `python tools/verify_import.py` to verify that the imported firmware bytes m
 
 - [Personal contribution record](docs/contributions.md)
 - [Demonstration and testing](docs/evidence.md)
-- [Source provenance](docs/provenance.md)
-- [Third-party notices](THIRD_PARTY_NOTICES.md)
 
 ## Related robot projects
 
